@@ -1,0 +1,40 @@
+<!DOCT<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutri ChatBot - Chat Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="button.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="chat-header">
+    <div class="chat-header-content">
+      <div class="chat-logo">💬 Nutri ChatBot</div>
+      <div class="header-buttons">
+        <button onclick="openSettings()" class="btn-secondary">Settings</button>
+        <button onclick="logout()" class="btn-danger">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Chat Section -->
+  <main class="chat-container">
+    <div class="chat-messages" id="chat-messages">
+      <!-- Messages will appear here -->
+      <div class="bot-message">
+        👋 Hello! I’m Nutri ChatBot. How can I assist you with your health today?  
+        <br /><small>Tip: Ask about diabetes, ulcers, or hypertension.</small>
+      </div>
+    </div>
+
+    <form id="chat-form" class="chat-input-area">
+      <input type="text" id="chat-input" placeholder="Type your message..." required />
+      <button type="submit" class="btn-primary">Send</button>
+    </form>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>￼Enter
