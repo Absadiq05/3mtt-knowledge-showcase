@@ -1,0 +1,59 @@
+.header-buttons {
+
+  display: flex;
+
+  gap: 0.5rem;
+
+}
+
+
+
+.btn-secondary {
+
+  background: white;
+
+  color: #2bbbad;
+
+  border: 1px solid #2bbbad;
+
+  border-radius: 20px;
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+
+}
+
+
+
+.btn-secondary:hover {
+
+  background: #e0f7fa;
+
+}
+
+
+
+.btn-danger {
+
+  background: #ff5252;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 20px;
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+
+}
+
+
+
+.btn-danger:hover {
+
+  background: #ff1744;
+
+}￼Enter
