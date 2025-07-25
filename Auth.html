@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutri ChatBot - Login</title>
+  <link rel="stylesheet" href="Auth.css" />
+</head>
+<body>
+  <div class="auth-container">
+    <h1>Welcome to Nutri ChatBot</h1>
+    <p>Your AI Health Companion</p>
+
+    <div class="auth-box">
+      <h2 id="auth-title">Sign In</h2>
+      <form id="auth-form">
+        <div class="form-group" id="name-group" style="display:none;">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit" class="btn-primary">Sign In</button>
+      </form>
+      <p id="switch-auth">Don't have an account? <a href="#" onclick="toggleAuth()">Sign Up</a></p>
+    </div>
+  </div>
+
+  <script src="Auth.js"></script>
+</body>
+</html>￼Enter
