@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediChatBot - Settings</title>
+  <link rel="stylesheet" href="settings.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="chat-header">
+    <div class="chat-header-content">
+      <div class="chat-logo">⚙️ Settings</div>
+      <button onclick="goBack()" class="btn-secondary">Back</button>
+    </div>
+  </header>
+
+  <!-- Settings Section -->
+  <main class="settings-container">
+    <h2>Profile Settings</h2>
+    <form id="profile-form" class="settings-form">
+      <div class="form-group">
+        <label for="username">Full Name</label>
+        <input type="text" id="username" placeholder="Your name" value="John Doe" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" value="johndoe@example.com" />
+      </div>
+      <button type="submit" class="btn-primary">Save Changes</button>
+    </form>
+
+    <h2>Preferences</h2>
+    <div class="preferences">
+      <label class="toggle-switch">
+        <input type="checkbox" id="dark-mode-toggle" />
+        <span class="slider"></span>
+      </label>
+      <span>Enable Dark Mode</span>
+    </div>
+
+    <button class="btn-danger" onclick="logout()">Logout</button>
+  </main>
+
+  <script src="settings.js"></script>
+</body>
+</html>
